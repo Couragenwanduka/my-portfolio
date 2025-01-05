@@ -7,7 +7,7 @@ const Work = () => {
 
     const feWork = [
         {
-            image:'src/public/image/Screenshot 2025-01-05 at 15.57.34.png', 
+            image:'/image/Screenshot 2025-01-05 at 15.57.34.png', 
             title:'Uifry' , 
             description:'uifry is a static site application built with Next.js that features an About page, Services page, Contact page, and Blog page. It provides a responsive design for optimal viewing on all devices and includes an interactive map powered by Leaflet.js for routing functionality.' ,
             liveLink:'https://uifry-beta-lake.vercel.app/',
@@ -15,19 +15,19 @@ const Work = () => {
             techology:'Next Js, Typescript, Taillwind'
         },
         {
-            image:'src/public/image/Screenshot 2025-01-05 at 15.59.48.png', title:'Mencix' , 
+            image:'/image/Screenshot 2025-01-05 at 15.59.48.png', title:'Mencix' , 
             description:"A modern and visually appealing landing page designed to effectively communicate the brand’s message and engage users. The page features a clean layout, responsive design, and intuitive navigation to ensure seamless user experience across all devices. Key sections include a hero banner, services overview, testimonials, and a call-to-action for user interaction.",
             liveLink:'https://mecnix-alpha.vercel.app/',
             techology:'React Js, Javascript, Tailwind CSS'
         },
         {
-            image:'src/public/image/Screenshot 2025-01-05 at 16.01.39.png', title:'Dimp' , 
+            image:'/image/Screenshot 2025-01-05 at 16.01.39.png', title:'Dimp' , 
             description:"A modern and visually appealing landing page designed to effectively communicate the brand’s message and engage users. The page features a clean layout, responsive design, and intuitive navigation to ensure seamless user experience across all devices. Key sections include a hero banner, services overview, testimonials, and a call-to-action for user interaction.",
             liveLink:'https://dimp-fe.vercel.app/',
             techology:'React Js, Javascript, Tailwind CSS'
         },
         {
-            image:'src/public/image/Screenshot 2025-01-05 at 16.25.55.png', title:'Google Flight Clone' , 
+            image:'/image/Screenshot 2025-01-05 at 16.25.55.png', title:'Google Flight Clone' , 
             description:"A responsive web application replicating the core functionalities of Google Flights. The project allows users to search, filter, and compare flight options seamlessly. Key features include a dynamic search interface, real-time filtering, and a visually appealing design inspired by Google’s material design principles. Built with a focus on performance and usability, it ensures a smooth user experience across devices",
             liveLink:'https://spotter-ten.vercel.app/',
             gitHub:'https://github.com/Couragenwanduka/spotter.git',
@@ -36,31 +36,31 @@ const Work = () => {
     ]
     const BackendWork = [
         {
-            image:'src/public/image/e2dcf0f7-5345-4e81-a713-972b0bde4cac.webp', 
+            image:'/image/e2dcf0f7-5345-4e81-a713-972b0bde4cac.webp', 
             title:'Expense Tracker',
             description:'This backend system for an expense tracking app uses a monolithic architecture and MongoDB for flexibility and scalability. The database schema follows the first three normalization rules (1NF to 3NF) to ensure data consistency, reduce redundancy, and maintain a structured design.',
             gitHub:'https://github.com/Couragenwanduka/Expense-Tracker-api.git'
         },
         {
-            image:'src/public/image/Screenshot 2025-01-05 at 16.25.00.png',
+            image:'/image/Screenshot 2025-01-05 at 16.25.00.png',
             title:'Datum',
             description:'A robust backend API for managing student records, analyzing data with Google Gemini, and providing personalized feedback. Built with PostgreSQL, Express, and Node.js for efficient data handling and insights.',
             gitHub:'https://github.com/Couragenwanduka/datumBackend.git'
         },
         {
-            image:'src/public/image/download2.png',
+            image:'/image/download2.png',
             title:"Simple Auth Api written in Go",
             description:'A simple authentication API built with Go, Gorilla Mux, and JWT. It provides endpoints for registration, login, and refreshing JWT tokens.',
             gitHub:'https://github.com/Couragenwanduka/Go_api.git'
         },
         {
-            image:'src/public/image/download.jpeg',
+            image:'/image/download.jpeg',
             title: 'Mecnix Blog',
             description:'A blog API built with Node.js, Express, and MongoDB. It includes endpoints for creating, reading, updating, and deleting blog posts, as well as user authentication and authorization. the code was written for my company but the project was decommuntioned and i was given permisison to use it',
             gitHub:'https://github.com/Couragenwanduka/MecnixBlog.git'
         },
         {
-            image:'src/public/image/download (1).jpeg',
+            image:'/image/download (1).jpeg',
             title: 'Bookworm Api',
             description:'A RESTful API for managing bookstore books, authors, and publishers. It uses Node.js, Express, and MongoDB for efficient data handling and provides endpoints for CRUD operations on these entities.',
             gitHub:'https://github.com/Couragenwanduka/Bookworm_Backend.git'
@@ -69,7 +69,7 @@ const Work = () => {
 
     const mobileWork = [
         {
-            image:'src/public/image/IMG_3760.PNG',
+            image:'/image/IMG_3760.PNG',
             title: 'Firts',
             description:'A simple mobile app showcasing a few screens built with React Native and NativeWind, demonstrating clean design and responsive layouts for seamless user experiences.',
             gitHub:'https://github.com/Couragenwanduka/Firts.git'
@@ -78,13 +78,13 @@ const Work = () => {
 
     const liveProjects = [
         {
-            image:'src/public/image/Screenshot 2025-01-05 at 16.49.56.png',
+            image:'/image/Screenshot 2025-01-05 at 16.49.56.png',
             title: 'Zwilt',
             description:'An Application that helps comapanies with hiring process',
             liveLink:'https://app.zwilt.com/auth/signin'
         },
         {
-            image:'src/public/image/Screenshot 2025-01-05 at 16.53.06.png',
+            image:'/image/Screenshot 2025-01-05 at 16.53.06.png',
             title: 'solraLab',
             description:'A simple blog application built with Next.js and React',
             liveLink:'https://www.solralab.com/'

@@ -18,7 +18,7 @@ const Hero = () => {
 
     const handleDownload = () => {
         const link = document.createElement("a");
-        link.href = "src/public/image/Courage-Nduka-FlowCV-Resume-20241126 (2).pdf"; // Replace with your file's URL
+        link.href = "public/image/Courage-Nduka-FlowCV-Resume-20241126 (2).pdf"; // Replace with your file's URL
         link.download = "My Cv"; // Set the desired file name
         document.body.appendChild(link);
         link.click();
@@ -48,7 +48,7 @@ const Hero = () => {
 
         {/* Image Section */}
         <div className="w-[50%]">
-          <img src="src/public/image/IMG_0983.JPG" alt="Hero Image" />
+          <img src="/image/IMG_0983.JPG" alt="Hero Image" />
         </div>
       </div>
 
