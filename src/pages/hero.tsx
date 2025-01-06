@@ -32,7 +32,7 @@ const Hero = () => {
         <div className="w-[50%] flex flex-col justify-center items-center ml-16 md:mt-10 lg:mt-0">
           <div>
             <h1 className="text-[#c9401c] text-left text-3xl font-sans">Hello</h1>
-            <p className="font-serif  md:text-3xl lg:text-7xl break-words lg:w-12/12  w-9/12 text-left">
+            <p className="font-serif  md:text-3xl lg:text-5xl break-words lg:w-12/12  w-9/12 text-left">
               I'm Courage Nduka, a software Developer based in Lagos, Nigeria
             </p>
             <span className="flex gap-7 mt-10 md:w-[85%] lg:w-full">
