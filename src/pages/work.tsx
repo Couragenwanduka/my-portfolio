@@ -157,13 +157,13 @@ const Work = () => {
       };
     
       return (
-        <main className="p-16" id="works">
+        <main className="md:p-16 p-5" id="works">
           <div>
             <h1 className="text-[200px] font-bold text-[#e7e9e7] font-sans">02</h1>
-            <p className="text-5xl text-black absolute top-[377%] 2xl:top-[300%] ml-4 font-serif">Selected Works.</p>
+            <p className="text-5xl text-black absolute lg:top-[377%] md:top-[260%] top-[455%] 2xl:top-[300%] ml-4 font-serif">Selected Works.</p>
           </div>
     
-          <section className="flex justify-center gap-4 mt-8">
+          <section className="flex flex-col md:flex-row justify-center gap-4 mt-8">
             <button
               className={`px-6 text-black ${selectedCategory === 'Frontend' ? 'border-b-2 border-black' : ''}`}
               onClick={() => handleCategoryChange('Frontend')}

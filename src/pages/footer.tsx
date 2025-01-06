@@ -24,13 +24,13 @@ Best regards,
   };
 
   return (
-    <main className="bg-[#191919] p-16" id="footer">
+    <main className="bg-[#191919] md:p-16 p-5" id="footer">
       <div>
         <h1 className="text-[200px] font-bold text-[#2a2a2a] font-sans">03</h1>
         {/* <p className="text-5xl text-white absolute top-[545%] 2xl:top-[402%] ml-3 font-serif">Get In Touch.</p> */}
       </div>
-      <section className="flex justify-between">
-        <div className="w-[50%] text-[#767776] font-sans text-xl leading-9">
+      <section className="flex flex-col md:flex-row justify-between gap-3 lg:gap-0">
+        <div className="lg:w-[50%] md:w-[90%] text-[#767776] font-sans text-xl leading-9">
           Whether you're looking to collaborate on an exciting project, have a question, or just want to say hi, feel free to drop me a message using the form below or any of the contact methods provided—I'll get back to you as soon as I can! I'm open to freelance opportunities, full-time roles, or any interesting ideas you'd like to discuss. Have a project, feedback, or just want to chat? Let's make something great together!
         </div>
         <div>
@@ -55,7 +55,7 @@ Best regards,
           </ul>
         </div>
       </section>
-      <section className="flex gap-3 mt-9">
+      <section className="flex flex-col md:flex-row gap-3 mt-9">
         <button
           className="h-20 w-full bg-[#c9401c] text-white hover:bg-[#c93f1cd3]"
           onClick={handleOpenGmail}
