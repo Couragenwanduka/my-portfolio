@@ -18,7 +18,7 @@ const Hero = () => {
 
     const handleDownload = () => {
         const link = document.createElement("a");
-        link.href = "public/image/Courage-Nduka-FlowCV-Resume-20241126 (2).pdf"; // Replace with your file's URL
+        link.href = "/image/Courage Nduka's Cv.pdf"; // Replace with your file's URL
         link.download = "My Cv"; // Set the desired file name
         document.body.appendChild(link);
         link.click();
