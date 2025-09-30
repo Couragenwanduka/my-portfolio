@@ -5,7 +5,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <div
-      className='flex flex-col-reverse md:flex-row justify-between bg-[#141218] px-6 md:px-10 pt-10 md:pt-20 gap-10 md:gap-0'
+      className='flex flex-col-reverse md:flex-row justify-between bg-[#141218] px-6 md:px-10 pt-10 md:pt-38 gap-10 md:gap-0'
       id='hero'
     >
       <div className='flex flex-col justify-center items-start gap-6 lg:gap-10'>
