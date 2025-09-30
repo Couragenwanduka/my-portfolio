@@ -41,7 +41,7 @@ const Page = () => {
       {showTop && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-5 right-5 bg-[#D0BCFE] text-[#381e72] p-3 rounded-lg flex justify-center items-center size-8 shadow-lg hover:scale-110 transition-transform"
+          className="fixed bottom-5 z-[99999] right-5 bg-[#D0BCFE] text-[#381e72] p-3 rounded-lg flex justify-center items-center size-8 shadow-lg hover:scale-110 transition-transform"
         >
           <p className='text-xl font-bold'  >↑</p>
         </button>

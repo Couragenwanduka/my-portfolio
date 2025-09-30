@@ -23,7 +23,7 @@ const Footer = () => {
 
   return (
     <div className='bg-[#131218] flex flex-col justify-center items-center p-20 gap-3' id='footer'>
-      <p className="font-medium text-[36px] font-roboto text-[#CCC2DC]">Get in Touch</p>
+      <p className="font-medium lg:text-[36px] text-[22px] font-roboto text-[#CCC2DC]">Get in Touch</p>
 
       <div className='flex gap-3'>
   {profile.map((item, index) => (
@@ -44,7 +44,7 @@ const Footer = () => {
 
 
       <div className='flex flex-col gap-2 mt-4'>
-        <span className='flex gap-2 items-center text-[22px] font-normal'>
+        <span className='flex gap-2 items-center lg:text-[22px] font-normal'>
           <p>Email:</p>
           <p>courageobunike@gmail.com</p>
           <button
@@ -55,7 +55,7 @@ const Footer = () => {
           </button>
         </span>
 
-        <span className='flex gap-2 items-center text-[22px] font-normal'>
+        <span className='flex gap-2 items-center lg:text-[22px] font-normal'>
           <p>Phone:</p>
           <p>09049854437</p>
           <button
