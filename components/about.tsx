@@ -22,7 +22,7 @@ const About = () => {
         />
 
         {/* Text */}
-        <div className='font-medium text-[14px] md:text-[16px] font-roboto flex flex-col gap-6 md:gap-11'>
+        <div className='font-medium text-[14px] md:text-[16px] font-roboto flex flex-col gap-6 md:gap-11 text-white'>
           <p>
             I am a dedicated full-stack developer passionate about creating innovative, cost-efficient solutions that deliver outstanding user experiences. With expertise in backend technologies like Node.js, Express, and Prisma, and frontend tools like React, Next.js, and Tailwind CSS, I thrive at bridging the gap between design and functionality.
           </p>

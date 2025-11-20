@@ -43,7 +43,7 @@ const Footer = () => {
 </div>
 
 
-      <div className='flex flex-col gap-2 mt-4'>
+      <div className='flex flex-col gap-2 mt-4 text-white'>
         <span className='flex gap-2 items-center lg:text-[22px] font-normal'>
           <p>Email:</p>
           <p>courageobunike@gmail.com</p>

@@ -61,7 +61,7 @@ const Experience = () => {
               <p className="text-[18px] md:text-[22px] font-normal font-roboto text-[#E6E0E9]">
                 {experience.company}
               </p>
-              <p className="font-medium text-[10px] md:text-[12px]">{experience.duration}</p>
+              <p className="font-medium text-[10px] md:text-[12px] text-white">{experience.duration}</p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-1 sm:gap-3 text-[#CAC4D0] font-normal text-[12px] md:text-[14px]">
