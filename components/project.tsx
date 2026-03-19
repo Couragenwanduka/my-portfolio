@@ -86,7 +86,39 @@ const Project = () => {
             title: 'solraLab',
             description:'A simple blog application built with Next.js and React',
             liveLink:'https://www.solralab.com/'
+        },
+        {
+            image:"/Screenshot 2026-03-19 at 5.28.01 PM.png",
+            title:"Enviryde Landing page",
+            description: "Marketing website for EnviRyde – an eco-friendly carpooling platform built with WordPress, featuring ride booking info, carbon impact tracking, and a waitlist sign-up",
+            liveLink:"https://enviryde.com/"
+        },
+        {
+            image:"/Screenshot 2026-03-19 at 5.28.26 PM.png",
+            title:"Enviryde App",
+            description: "EnviRyde main app — carpooling platform with ride booking, driver/passenger matching, and real-time carbon savings tracking. Built for Android (Google Play).",
+            appStore: "https://apps.apple.com/ca/app/enviryde/id6504776001",
+            playStore: "https://play.google.com/store/apps/details?id=com.enviryde",
+        },
+        {
+            image: "/Screenshot 2026-03-19 at 5.28.46 PM.png",
+            title: "TymeFlick",
+            description: "Built the landing page, admin site, and mobile app for TymeFlick — a smart time tracking platform for modern teams featuring project & task management, a one-click time tracker, reports & analytics, and a workflow optimizer. Mobile app coming soon.",
+            liveLink: "https://tymeflick.com/",
+        },
+        {
+            image: "/Screenshot 2026-03-19 at 5.33.34 PM.png",
+            title: "EaseHow – Landing Page",
+            description: "Built the landing page for EaseHow, a platform that connects clients with freelancers via Telegram.",
+            liveLink: "https://ease.how/en",
+        },
+        {
+            image: "/Screenshot 2026-03-19 at 5.34.16 PM.png",
+            title: "EaseHow – Telegram Bot",
+            description: "Built the Telegram bot for EaseHow, enabling clients and freelancers to connect, communicate, and manage projects directly within Telegram.",
+            liveLink: "https://t.me/easehowbot",
         }
+
 
     ]
   return (
@@ -131,6 +163,23 @@ const Project = () => {
                                                 className="cursor-pointer"
                                             >
                                                 <img src="/Arrow up-right.svg" alt="Live Link" className="w-6 h-6 md:w-6 md:h-6"/>
+                                            </button>
+                                        )}
+                                        {project.appStore && (
+                                            <button
+                                                onClick={() => window.open(project.appStore, "_blank")}
+                                                className="cursor-pointer text-[11px] px-2 py-1 bg-[#3C3A45] text-[#CAC4D0] rounded-md hover:bg-[#4C4A55] transition"
+                                            >
+                                                App Store
+                                            </button>
+                                        )}
+
+                                        {project.playStore && (
+                                            <button
+                                                onClick={() => window.open(project.playStore, "_blank")}
+                                                className="cursor-pointer text-[11px] px-2 py-1 bg-[#3C3A45] text-[#CAC4D0] rounded-md hover:bg-[#4C4A55] transition"
+                                            >
+                                                Play Store
                                             </button>
                                         )}
                                     </div>
