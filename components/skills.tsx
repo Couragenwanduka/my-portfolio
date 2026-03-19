@@ -17,6 +17,8 @@ const Skills = () => {
         { image: '/postgresql.svg', label: 'Postgresql' },
         { image: '/mongoDb.svg', label: 'MongoDB' },
         { image: '/redis.svg', label: 'Redis' },
+        { image: '/java-ar21.svg', label:"Java"},
+        { image:"/react-native-1.svg", label:"React-native"}
     ]
 
     return (
